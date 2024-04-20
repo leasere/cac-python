@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Times New Roman', Times, serif;
+}
+.banner{
+	width: 100%;
+	height: 60rem;
+	animation: banner 10s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes banner{
+	0%, 20%{
+		background-image: url("/img/img-banner1.webp");
+	}
+	25%, 45%{
+		background-image: url("/img/img-banner2.webp");
+	}
+	50%, 70%{
+		background-image: url("/img/img-banner3.webp");
+	}
+	75%, 100%{
+		background-image: url("/img/img-banner4.webp");
+	}
+}
+.capa{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.6);
+}
+.info{
+	z-index: 1;
+	width: 100%;
+	max-width: 550px;
+	text-align: center;
+}
+.info h1{
+	color: #fff;
+	font-size: 45px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+.info p{
+	color: #c7c7c7;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+.info a{
+	color: #fff;
+	text-decoration: none;
+	background: #3088e0;
+	padding: 16px 37px;
+	display: inline-block;
+	border-radius: 50px;
+  box-shadow: 7px 5px 5px rgba(11, 11, 11, 0.653);
+  ;
+}
+
+.info a:hover {
+  background: #3e6286;
+}
