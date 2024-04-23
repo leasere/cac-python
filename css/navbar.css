@@ -4,6 +4,7 @@
   background-color:#ffff;
   position: fixed;
   right: 10px;
+  z-index: 1;
 
   a {
     float: right;
@@ -22,6 +23,5 @@
       background-color: #04AA6D;
       color: white;
     }
-  }
-  
+  } 
 }
