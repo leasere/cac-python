@@ -96,6 +96,7 @@ img {
 	flex-wrap: wrap;
 }
 
+/*cada columna ocupa un 33.3% de la pantalla en portafolio*/
 .fotografia {
 	flex-basis: calc(33.3% - 1rem);
 }
@@ -106,6 +107,34 @@ img {
 	padding: 5px 5px 10px;
 }
 
+/*About*/
 .principal {
 	padding: 43px 5px 5px 5px;
+	/* display: flex; */
 }
+
+/* .texto-presentacion {
+	display: flex;
+	flex:1;
+}
+
+.imagen-presentacion{
+
+}
+
+.test {
+	border: 1px solid red;
+	display: flex;
+
+}
+.test > div {
+	border: 1px solid blue;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+
+	padding: 10px;
+}
+.test > div:last-child {
+	flex: 3;
+} */
